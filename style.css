@@ -1,0 +1,167 @@
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(assets/fonts/gilroy-medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+body {
+    font-family: Gilroy-Medium;
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #19203C;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 1080px;
+}
+
+.block1 .background  {
+    z-index: -1000;
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+}
+
+.block1 header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 60px;
+    width: 100%;
+}
+
+.block1 header a, .block1 header p {
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.block1 header .logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.block1 header .logo-box .language-switch-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.block1 header .logo-box .language-switch-box span {
+    width: 1px;
+    opacity: 0.4;
+    height: 28px;
+    background-color: #fff;
+}
+
+.block1 header .logo-box .language-switch-box .uz {
+    opacity: 0.4;
+}
+
+.block1 header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.block1 header .catalog-button-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.block1 header .catalog-button-box button {
+    font-size: 24px;
+    line-height: 32px;
+    border-radius: 42px;
+    padding: 20px;
+    color: #fff;
+    background-color: #DB9BC5;
+}
+
+.block1 main {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.block1 main .home-svg-image {
+    position: absolute;
+    bottom: -80px;
+    z-index: -1;
+}
+
+.block1 main .text-box {
+    bottom: 230px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index:-2;
+    gap: 16px;
+}
+
+.block1 main .text-box .second-text {
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.block1 main .text-box .main-text {
+    font-size: 110px;
+    line-height: 100px;
+    color: #fff;
+}
+
+.block1 main .nav-button-box {
+    right: 60px;
+    bottom: 24px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+}
+
+.block1 main .nav-button-box button {
+    width: 100px;
+    height: 100px;
+    background-color: #DB9BC5;
+    border-radius: 100px;
+}
