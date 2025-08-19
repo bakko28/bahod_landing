@@ -3,6 +3,11 @@
     src: url(assets/fonts/gilroy-medium.ttf);
 }
 
+@font-face {
+    font-family: Romanovsky-Regular;
+    src: url(assets/fonts/Romanovsky-regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +33,8 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    gap: 120px;
     background-color: #19203C;
 }
 
@@ -45,7 +51,6 @@ body {
     position: absolute;
     width: 100%;
     background-size: cover;
-    height: 100%;
 }
 
 .block1 header {
@@ -121,7 +126,7 @@ body {
 
 .block1 main .home-svg-image {
     position: absolute;
-    bottom: -80px;
+    bottom: 0px;
     z-index: -1;
 }
 
@@ -165,3 +170,114 @@ body {
     background-color: #DB9BC5;
     border-radius: 100px;
 }
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 0px 60px 60px 60px;
+    gap: 64px;
+}
+
+.block2 .main-text {
+    text-align: center;
+    width: 1250px;
+    font-size: 36px;
+    line-height: 44px;
+    color: #fff;
+}
+
+.block2 .info-block-box {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.block2 .info-block-box .left-box, .block2 .info-block-box .right-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.block2 .info-block-box .card {
+    border-radius: 12px;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #20294D;
+}
+
+.block2 .info-block-box .card img {
+    width: 32px;
+}
+
+.block2 .info-block-box .card p {
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.block2 .info-block-box #active {
+    background-color: #2A3666;
+}
+
+.block3 {
+    border: 2px red solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 60px;
+    gap: 60px;
+    position: relative;
+}
+
+.block3 .text-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+}
+
+.block3 .text-box .main-text {
+    font-family: Romanovsky-Regular;
+    font-size: 64px;
+    line-height: 72px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.block3 .text-box .second-text {
+    width: 128%;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.block3 .image-box {
+    gap: 1px;
+    display: flex;
+    width: 100%;
+    position: relative;
+    left: -100px;
+}
+
+.block3 .image-box .play-button {
+    background-color: #DB9BC5;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
