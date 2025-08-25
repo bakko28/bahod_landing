@@ -281,3 +281,13 @@ body {
     left: 50%;
 }
 
+.block4 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 0px 60px;
+}
+
+.block4 .image-box
