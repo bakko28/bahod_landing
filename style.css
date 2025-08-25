@@ -378,3 +378,130 @@ body {
 .block4 .text-box .buttons-box .right-button img{
     transform: rotate(180deg);
 }
+
+.block5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+    padding: 0px 60px;
+}
+
+.block5 .main-text {
+    text-align: center;
+    font-family: Romanovsky-Regular;
+    font-size: 64px;
+    line-height: 72px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.block5 .cardbox {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    justify-content: center;
+}
+
+.block5 .cardbox .card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    justify-content: center;
+}
+
+.block5 .cardbox .card p {
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.upperfooter-box {
+    padding: 80px 60px 60px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #F0E4EC;
+}
+
+.block6 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.block6 .text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+    text-align: center;
+}
+
+.block6 .text-box .main-text {
+    font-family: Romanovsky-Regular;
+    font-size: 64px;
+    line-height: 72px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.block6 .text-box .second-text {
+    width: 54%;
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
+}
+
+.block6 .cardbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.block6 .cardbox .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px 999px 0px 0px;
+    width: 600px;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+}
+
+.block6 .cardbox .card p {
+    background-color: #FFF0FA;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+.block6 .cardbox #card2 {
+    border-radius:  0px 0px 999px 999px;
+}
+
+.block6 .cardbox .card img {
+    width: 100%;
+    aspect-ratio: 6 / 6; /* одинаковое соотношение сторон */
+    object-fit: cover;
+}
+
+
