@@ -652,3 +652,165 @@ body {
     width: 75%;
 }
 
+footer {
+    width: 100%;
+    padding: 60px;
+    border: 2px red solid;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 17px;
+}
+
+footer .left-box , footer .right-box{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 48px;
+    background-color: #20294D;
+    width: 100%;
+}
+
+footer .left-box .main-text, footer .right-box .text-box .first-text {
+    font-family: Romanovsky-Regular;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+footer .left-box .phone-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+footer .left-box .phone-box .phone-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 999px;
+    background-color: #2A3666;
+}
+
+footer .left-box .phone-box .text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: #fff;
+    justify-content: center;
+}
+
+footer .left-box .phone-box .text-box .first-text {
+    font-family: Gilroy-Medium;
+    font-size: 36px;
+    line-height: 44px;
+    color: #fff;
+}
+
+footer .left-box .phone-box .text-box .second-text {
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+footer .left-box .nav-box {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: start;
+}
+
+footer .left-box .nav-box a {
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+footer .left-box .links-button-box {
+    display: flex;
+    margin-top: 76px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .left-box .links-button-box button {
+    background-color: #fff;
+    width: 64px;
+    height: 64px;
+    border-radius: 9999px;
+}
+
+footer .right-box .text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 32px;
+}
+
+footer .right-box .text-box .second-text {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+footer .right-box .form-box {
+    width: 100%;
+    position: relative;
+    border: 2px red solid;
+}
+
+footer .right-box .form-box form {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+footer .right-box .form-box form input {
+    background-color: transparent;
+    padding: 20px 24px;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Gilroy-Medium;
+    color: rgba(255, 255, 255, 0.4);
+    border-radius: 100px;
+    border: 1px rgba(255, 255, 255, 0.4) solid;
+    outline: none;
+    width: 394px;
+}
+
+footer .right-box .form-box form .checkbox {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 16px;
+    gap: 16px;
+    width: 65%;
+}
+
+footer .right-box .form-box form .checkbox p {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+footer .right-box .form-box img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
