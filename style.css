@@ -423,6 +423,7 @@ body {
 .upperfooter-box {
     padding: 80px 60px 60px 60px;
     display: flex;
+    gap: 180px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -453,7 +454,7 @@ body {
     font-family: Romanovsky-Regular;
     font-size: 64px;
     line-height: 72px;
-    color: #000;
+    color: #20294D;
     text-transform: uppercase;
 }
 
@@ -462,7 +463,7 @@ body {
     font-family: Gilroy-Medium;
     font-size: 24px;
     line-height: 32px;
-    color: #000;
+    color: #20294D;
 }
 
 .block6 .cardbox {
@@ -502,6 +503,78 @@ body {
     width: 100%;
     aspect-ratio: 6 / 6; /* одинаковое соотношение сторон */
     object-fit: cover;
+}
+
+.block7 {
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block7 .text-box {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.block7 .text-box .main-text {
+    font-family: Romanovsky-Regular;
+    font-size: 64px;
+    line-height: 72px;
+    color: #20294D;
+    text-transform: uppercase;
+}
+
+.block7 .text-box .description-text-box {
+    width: 50%;
+
+}
+
+.block7 .text-box .description-text-box ul{
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.block7 .text-box .description-text-box ul li {
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 32px;
+    color: #20294D;
+}
+
+.block7 .cardbox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.block7 .cardbox .card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.block7 .cardbox .card p {
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 32px;
+    color: #19203C;
+}
+
+.block7 .cardbox .card img {
+    width: 100%;
 }
 
 
