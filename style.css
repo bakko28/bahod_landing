@@ -577,4 +577,78 @@ body {
     width: 100%;
 }
 
+.block8 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 40px;
+}
+
+.block8 .main-text {
+    text-align: center;
+    font-family: Romanovsky-Regular;
+    font-size: 64px;
+    line-height: 72px;
+    text-transform: uppercase;
+    color: #19203C;
+}
+
+.block8 .info-box {
+    padding: 24px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF0FA;
+}
+
+.block8 .info-box .buttons-box {
+    width: 100%;
+    gap: 16px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.block8 .info-box .buttons-box .choose-office-button {
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: start;
+    gap: 12px;
+    color: #19203C;
+    background-color: #F0E4EC;
+}
+
+.block8 .info-box .buttons-box .choose-office-button .text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 4px;
+}
+
+.block8 .info-box .buttons-box .choose-office-button .text-box .first-text {
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.block8 .info-box .buttons-box .choose-office-button .text-box .second-text {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#officeButtonActive {
+    background-color: #19203C;
+    color: #fff;
+}
+
+.block8 .info-box .map-image {
+    width: 75%;
+}
 
